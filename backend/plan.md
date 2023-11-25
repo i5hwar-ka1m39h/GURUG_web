@@ -30,17 +30,17 @@ course schemma should include:
 teacher routes should include:
 1. sign up 👍
 2. log in 👍
-3. adding the course
-4. updating the course
-5. deleting the course
-6. getting all the course
-7. getting the individual course
+3. adding the course 👍
+4. updating the course 👍
+5. deleting the course 👍
+6. getting all the course 
+7. getting the individual course 👍
 
 student routes should include:
 1. sign up 👍
 2. log in 👍
 
 general route:
-1. should show all the course on the site
-2. should show the course that specific course
+1. should show all the course on the site 👍
+2. should show the course that specific course👍
 3. should show the teacher profile 
