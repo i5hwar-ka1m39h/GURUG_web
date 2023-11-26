@@ -1,9 +1,10 @@
 import express, {Request, Response,  NextFunction } from 'express';
 import mongoose from 'mongoose';
 import jwt from 'jsonwebtoken';
-
+import cors from 'cors';
 
 const app = express();
+app.use(cors());
 const PORT = 3000;
 const KEY = "this is the key to knowledge";
 app.use(express.json());
