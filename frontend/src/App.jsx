@@ -4,6 +4,7 @@ import Login from './component/login'
 import SignUp from './component/signup'
 import LandingPage from './component/landing';
 import AllCourse from './component/allcourse';
+import AllTeacher from './component/allteacher';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
           <Route path="/login" element={<Login />}/>
           <Route path="/signup" element={<SignUp />}/>
           <Route path='/allcourse' element={<AllCourse/>}/>
+          <Route path='/allteacher' element={<AllTeacher/>}/>
         </Routes>
       </Router>
     </>

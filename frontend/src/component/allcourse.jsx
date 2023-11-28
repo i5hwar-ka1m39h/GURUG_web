@@ -32,10 +32,7 @@ const AllCourse = ()=>{
           <h1>{i.title}</h1>
           <p>{i.description}</p>
           <p>{i.price}</p>
-          
         </div>
-        
-
       )
     })}
     
