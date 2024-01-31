@@ -1,6 +1,7 @@
 import express from 'express';
 import jwt from 'jsonwebtoken';
 import mongoose,{Schema} from 'mongoose';
+import cors from 'cors'
 import bcrypt from 'bcrypt'
 import { NextFunction, Request, Response } from "express";
 const SECRET = "secret"
@@ -9,6 +10,7 @@ const SECRET = "secret"
 const app = express();
 
 app.use(express.json());
+app.use(cors())
 
 
 //connect to database
